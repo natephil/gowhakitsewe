@@ -160,6 +160,7 @@ footer {
 .nope:hover {
     background: hsla(0, 80%, 45%, 1);
     color: #fff;
+    border-radius: 5px;
 }
 .yep {
     font-weight: bold;   
@@ -167,4 +168,20 @@ footer {
 .yep:hover {
     background: hsla(120, 100%, 25%, .7);
     color: #fff;
+    border-radius: 5px;
 }
+.progress {
+  text-decoration: none;
+  background-position: 0 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, hsla(120, 100%, 25%, .7) 50%);
+  transition: background-position 0.5s ease-out 0s;
+  background-size: 200.22% auto;
+  font-weight: bold;   
+}
+.progress:hover {
+    background-position: -25% 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, hsla(120, 100%, 25%, .7) 50%);
+}
+
+
+
