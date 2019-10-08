@@ -2,15 +2,18 @@
 <html>
 <head>
 	<title>Gowhakits'eewe</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic' rel='stylesheet' type='text/css'>
 	<!-- this  meta tag helps the unique characters render correctly-->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet"/>	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script src='https://production-assets.codepen.io/assets/embed/ei.js'></script>
@@ -114,7 +117,7 @@
 
 	<p class="opener-headline tk-futura-pt">Phonology</p>
 	<p class="opener-sub tk-futura-pt">consonant inventory</p>	
-	<table>
+	<table class="dataHighlight">
 		<tr>
 			<th colspan="2" rowspan="2"></th>
 			<th colspan="1">labial</th>
@@ -219,7 +222,7 @@
 	<br></br><br></br>
 
 	<p class="opener-sub tk-futura-pt">vowel inventory</p>
-	<table>
+	<table class="dataHighlight">
 		<tr>
 			<th></th>
 			<th colspan="2">front</th>
@@ -254,8 +257,8 @@
 	<br></br><br></br>
 	
 	<p class="opener-sub tk-futura-pt">Allophonic Variation Examples</p>
-	<table>
-		<tr>
+	<table class="rowHighlight">
+		<tr class="header">
 			<th>Process</th>
 			<th>Rule</th>
 			<th>Example</th>
@@ -274,9 +277,9 @@
 	
 	<br></br><br></br>
 	
-	<p class="opener-sub tk-futura-pt">Phonemic Environment Constraints and Features</p>
-	<table>
-		<tr>
+	<p class="opener-sub tk-futura-pt">Phonotactics</p>
+	<table class="rowHighlight">
+		<tr class="header">
 			<th>test</th>
 		</tr>
 		<tr>
@@ -300,8 +303,8 @@
 	<p class="opener-prose tk-merriweather">Verbal inflection is rich with a large number of tenses. Tense is usually carried by a suffix that attaches to the verb. The tense suffix may signal recent past, intermediate past, the long-ago-but-remembered past, the distant past, the intermediate future, or the distant future. For example, the suffix -testing indicates that the verb describes an event that took place in the recent past, usually earlier the previous day as seen in the Gowhakits'eewe sentence, "testing" (testing).</p>
 </div>
 
-<table>
-	<tr>
+<table class="rowHighlight">
+	<tr class="header">
 		<th>Suffix</th>
 		<th>Tense of Suffix</th>
 		<th>Use Context</th>
@@ -340,8 +343,8 @@
 	<p class="opener-prose tk-merriweather">Most nouns in Gowhakits'eewe are a root verb with a nominalizer affix. The affix depends on on the class of the noun you are affixing to and the noun classes typically fall intro one of these following categories:</p>
 	<p class="opener-prose tk-merriweather">Posession in Gowhakits'eewe is typically shown with the posessive particle /-i/ with the following pattern:</p>
 </div>
-<table>	
-	<tr>
+<table class="rowHighlight">	
+	<tr class="header">
 		<th>example</th>
 		<th>meaning</th>
 	</tr>
@@ -357,8 +360,8 @@
 <div class="opener-prose-container">
 	<p class="opener-prose tk-merriweather">Posession in words with multiple nouns exhibits a strange yet predictable behavior. Possessive pronouns are unlike those in English in that they are not based on gender person. They are instead somewhat case-like in that they are dependant on whether the subject or object of the main verb of the sentence is the possessor.</p>
 </div>	
-<table>	
-	<tr>
+<table class="rowHighlight">	
+	<tr class="header">
 		<th>testing</th>
 		<th>testing</th>
 		<th>testing</th>
@@ -380,8 +383,8 @@
 <div class="opener-prose-container">
 	<p class="opener-prose tk-merriweather">Noun classes typically fall into one of these following non-mutually exclusive categories:</p>
 </div>
-<table>	
-	<tr>
+<table class="rowHighlight">	
+	<tr class="header">
 		<th>class</th>
 		<th>root nominalizer</th>
 		<th colspan="2">example</th>
@@ -414,9 +417,6 @@
 <div class="opener-prose-container">
 	<p class="opener-prose tk-merriweather">Things having to do with the body and things that the natives create tend to fall in the "animate" noun class. This is do to the fact that the Gowhakits'eewe people believe these processes are leylines that are contunuing to reverberate from their creation. Their creator Ladix is believed to be the source of thought, language, and anything similar that is produced by the natives. This is also why some verbs take on what is called an "inherent tense" as well (example).</p>
 </div>
-<div class="opener-prose-container">
-	<p class="opener-prose tk-merriweather">Plurality -- I haven't really thought through how this will work. I've had several iterations of pluratity where it was related to noun classes, suffix to the verb, only on certain objects in the sentence, and lots of other ideas. I will flesh out other sections before coming back here shortly.</p>
-</div>
 <br>
 <!-- <hr> -->
 <br>
@@ -426,8 +426,8 @@
 	<p  class="opener-prose tk-merriweather">However, vowel length also played a critical role in many morphological processes such as:</p>
 </div>
 
-<table>
-	<tr>
+<table class="rowHighlight">
+	<tr class="header">
 		<th>morphological process</th>
 		<th>example</th>
 	</tr>
@@ -457,8 +457,8 @@
 <div class="opener-prose-container">
 	<p class="opener-prose tk-merriweather">1. repetitive aspect</p>
 </div>
-<table>
-	<tr>
+<table class="rowHighlight">
+	<tr class="header">
 		<th>test</th>
 		<th>test</th>
 	</tr>
@@ -469,10 +469,10 @@
 </table>
 
 <div class="opener-prose-container">
-	<p class="opener-prose tk-merriweather">2. plural number</p>
+	<p class="opener-prose tk-merriweather">2. plurality</p>
 </div>
-<table>
-	<tr>
+<table class="rowHighlight">
+	<tr class="header">
 		<th>test</th>
 		<th>test</th>
 	</tr>
@@ -485,8 +485,8 @@
 <div class="opener-prose-container">
 	<p class="opener-prose tk-merriweather">3. the prototype of a category/a very common version of an item.</p>
 </div>
-<table>
-	<tr>
+<table class="rowHighlight">
+	<tr class="header">
 		<th>test</th>
 		<th>test</th>
 	</tr>
@@ -509,9 +509,9 @@
 	<p class="opener-prose tk-merriweather">In addition to this, they are a nomadic people and the only race of humans on this planet. They live in close proximity to eachother at all times and often do tasks together. For numbers above 20 you start with, "first digit of second person." For numbers over 40 you start with, "first digit of third person." Etc. There is no distinction between the words "fingers" and "toes".
 </div>
 
-<table>
-	<tr>
-		<th>cardinal number</th>
+<table class="rowHighlight">
+	<tr class="header">
+		<th>numeral</th>
 		<th>t'eewe word for cardinal number</th>
 		<th>parse</th>
 		<th>parse</th>
@@ -655,9 +655,52 @@
 		<td>digit.RED + person + and</td>
 	</tr>
 	<tr>
+		<td>30</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
 		<td>40</td>
 		<td>ŋeːʍaʔet'adewo</td>
+		<td></td>
 		<td>ŋeː + ʍaʔe + t' + ade + wo</td>
+	</tr>
+	<tr>
+		<td>50</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>60</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>70</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>80</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>90</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>100</td>
+		<td></td>
+		<td></td>
+		<td></td>
 	</tr>
 </table>
 
@@ -670,8 +713,8 @@
 
 <p class="opener-sub tk-futura-pt">Prefixes</p>
 
-<table>
-	<tr>
+<table class="rowHighlight">
+	<tr class="header">
 		<th>prefix</th>
 		<th>meaning</th>
 	</tr>
@@ -689,8 +732,8 @@
 
 <p class="opener-sub tk-futura-pt">Suffixes</p>
 
-<table>
-	<tr>
+<table class="rowHighlight">
+	<tr class="header">
 		<th>suffix</th>
 		<th>meaning</th>
 	</tr>
@@ -736,8 +779,8 @@
 	<br><br>
 
 <p class="opener-headline tk-futura-pt">Miscellaneous Facts & Observations</p>
-<table>
-	<tr>
+<table class="rowHighlight">
+	<tr class="header">
 		<th>test</th>
 	</tr>
 	<tr>
@@ -795,117 +838,485 @@
 	<hr>
 	<br><br>
 
-<p class="opener-headline tk-futura-pt">Alphabetized Lexicon</p>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[ewe]</p>
-		<p>/ewe/</p>
-		<p>ewe</p>
-		<p>walk.V</p>
-		<p>walk (non tense/aspect related verb root)</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[goʍakits'eːwe]</p>
-		<p>/goʍakit'eːwe/</p>
-		<p>t' + ʍak + i + t' + eːwe</p>
-		<p>NOM.animate + speak.V + POSS + NOM.animate + PL.walk.V</p>
-		<p>The Gowhakits'eewe language</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[k'aʔaw]</p>
-		<p>/k'aʔaw/</p>
-		<p>k' + aʔaw</p>
-		<p>augmentative + sit.V</p>
-		<p>mountain</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[l̥adix]</p>
-		<p>/l̥adix/</p>
-		<p>l̥adix</p>
-		<p>--</p>
-		<p>deity from creation myth</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[naʍam]</p>
-		<p>/naʍam/</p>
-		<p>n + aʍam</p>
-		<p>NOM.inimate + air/water.V</p>
-		<p>water</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[ŋaʔaw]</p>
-		<p>/ŋaʔaw/</p>
-		<p>ŋ + aʔaw</p>
-		<p>diminuitive + sit.V</p>
-		<p>pebble</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[ŋeʒe]</p>
-		<p>/ŋeʒe/</p>
-		<p>ŋ + eʒe</p>
-		<p>NOM.diminuitive + count.V</p>
-		<p>finger/toe</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[sat]</p>
-		<p>/sat/</p>
-		<p>--</p>
-		<p>--</p>
-		<p>half</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[t'aʍam]</p>
-		<p>/t'aʍam/</p>
-		<p>t' + aʍam</p>
-		<p>NOM.animate + air/water.V</p>
-		<p>air</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[t'ade]</p>
-		<p>/t'ade/</p>
-		<p>t' + ade</p>
-		<p>NOM.animate + seed.V</p>
-		<p>person/human</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[t'aʍamits'iː]</p>
-		<p>/t'aʍamits'iː/</p>
-		<p>t' + aʍam + i + t' + iː</p>
-		<p>NOM.animate + air/water.V + POSS + NOM.animate + exist.V</p>
-		<p>breath</p>
-	</code>
-</div>
-<div class="parseBox">
-	<code class="morphology">
-		<p>[wo]</p>
-		<p>/wo/</p>
-		<p>--</p>
-		<p>--</p>
-		<p>and</p>
-	</code>
-</div>
+<p class="opener-headline tk-futura-pt">Searchable Lexicon</p>
 
-<br>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="&#61442 Search for words.." title="Type in a word">
+
+<table  class="rowHighlight" id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Meaning</th>
+    <th style="width:40%;">Parse</th>
+  </tr>
+  <tr>
+  	<td>air</td>
+  	<td>[t'aʍam]<br>t' + ʍam<br>NOM.animate + air/water.V</td>
+  </tr>
+  <tr>
+  	<td>and</td>
+  	<td>[wo]<br><br></td>
+  </tr>
+  <tr>
+    <td>breath</td>
+    <td>[t'aʍamits'iː]<br>t' + aʍam + i + t' + iː<br>NOM.animate + air/water.V + POSS + NOM.animate + exist.V</td>
+  </tr>
+  <tr>
+    <td>deity from creation myth</td>
+    <td>[l̥adix]</td>
+  </tr>
+  <tr>
+    <td>digit (finger/toe)</td>
+    <td>[ŋeʒe]<br>ŋ + eʒe<br>NOM.diminuitive + count.V</td>
+  </tr>
+  <tr>
+    <td>Gowhakits'eewe (language)</td>
+    <td>[goʍakits'eːwe]<br>t' + ʍak + i + t' + eːwe<br>NOM.animate + speak.V + POSS + NOM.animate + PL.walk.V</td>
+  <tr>
+  	<td>half (of a quantity)</td>
+  	<td>[sat]<br><br></td>
+  </tr>
+  <tr>
+    <td>mountain</td>
+    <td>[k'aʔaw]<br>k' + aʔaw<br>augmentative + sit.V</td>
+  </tr>
+  <tr>
+    <td>pebble</td>
+    <td>[ŋaʔaw]<br>ŋ + aʔaw<br>NOM.diminuitive + sit.V</td>
+  </tr>
+  <tr>
+    <td>person</td>
+    <td>[t'ade]<br>t' + ade<br>NOM.animate + seed.V</td>
+  </tr>
+  </tr>
+  <tr>
+    <td>water</td>
+    <td>[naʍam]<br>n + aʍam<br>NOM.inimate + air/water.V</td>
+  </tr>
+  <tr>
+  	<td>walk</td>
+  	<td>[ewe]<br>--<br>walk.V</td>
+  </tr>
+  <tr>
+  	<td>I</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>you</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>we</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>this</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>that</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>who?</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>what?</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>not</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>all (of a number)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>many</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>one</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>two</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>big</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>long</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>small</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>woman</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>man</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>fish (noun)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>bird</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>dog</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>louse</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>tree</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>seed</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>leaf</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>root</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>bark (of a tree)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>skin</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>flesh</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>blood</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>bone</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>grease (fat, organic substance)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>egg</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>horn (of an animal)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>tail</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>feather</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>hair</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>head</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>moon</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>ear</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>eye</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>nose</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>sun</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>mouth</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>tooth (front/molar difference?)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>tongue</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>claw</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>foot</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>knee</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>hand</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>belly</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>neck</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>breasts</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>heart</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>liver</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>drink (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>eat (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>bite (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>see (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>hear (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>know (of/fact/friendliness difference?)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>sleep (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>die (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td> kill (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>swim (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>fly (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>walk (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>come (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>lie (down/on side/etc)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>stand (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>give (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>say (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>star</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>rain (noun)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>stone</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>sand</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>earth (soil/planet/land difference?)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>smoke (noun, of fire)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>fire</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>ash(es)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>burn (verb)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>path (road/trail/street difference?)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>red (color)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>green (color)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>yellow (color)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>white (color)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>black (color)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>hot (adjective, warm, of weather)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>cold (adjective, of weather)</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>full</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>new</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>good</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>bad</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>round</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>dry</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>wet</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>name</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>father</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>mother</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>brother</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>sister</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>sea</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>river</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>rope</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>sharp</td>
+  	<td><br><br></td>
+  </tr>
+  <tr>
+  	<td>soft</td>
+  	<td><br><br></td>
+  </tr>
+</table>
+<br><br>
 <hr>
 <p class="opener-sub tk-futura-pt">possible lexical items without a current home</p>
 <div class="parseBox">
@@ -924,7 +1335,6 @@
 	</code>
 </div>
 
-<script type="text/javascript" src="script.js"></script>
 </body>
 <footer>
 	<br></br><br></br>
@@ -943,9 +1353,14 @@
 	<a href="https://en.wikipedia.org/wiki/Washo_language" target="_blank">Washo language</a>
 	<br>
 	<a href="https://en.wikipedia.org/wiki/Tzotzil_language">Tzotzil language</a>
+	<br>
+	<a href="http://www.sf.airnet.ne.jp/ts/language/number/tzotzil.html">Tzotil Number System</a>
+	<br>
 	<a href="https://en.wikipedia.org/wiki/Amharic" target="_blank">Amharic language</a>
 	<br>
 	<a href="https://conlang.fandom.com/wiki/Shinsali" target="_blank">Shinsali Conlang</a>
+	<br>
+	<a href="https://en.wikipedia.org/wiki/List_of_numbers_in_various_languages#Mayan_languages">List of Numbers in Various Languages</a>
 	<br></br><br></br>
 </footer>
 </html>
