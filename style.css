@@ -40,7 +40,6 @@ table, th {
 table, td {
   border-bottom: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
-  /*border-color: hsla(240, 15%, 25%, .5);*/
   border-collapse: collapse;
   text-align: center: 
 }
@@ -59,8 +58,12 @@ th {
 td {
 	padding: 20px;
 }
-td:hover {
-    background-color: #F5F8FC; 
+.dataHighlight td:hover {
+    /*background-color: #F5F8FC; */
+    background-color: hsla(240, 50%, 80%, .1);
+}
+.rowHighlight tr:hover:not(.header) {
+  background-color: hsla(240, 50%, 80%, .1);
 }
 footer {
   height: 150px;
@@ -154,6 +157,8 @@ footer {
     font-size: 32px;
     margin-top: 0px;
 }
+
+/*table styling*/
 .nope {
     font-weight: bolder;
 }
@@ -183,5 +188,37 @@ footer {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, hsla(120, 100%, 25%, .7) 50%);
 }
 
+/*filter table styling*/
+* {
+  box-sizing: border-box;
+}
 
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+#myInput {
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px; 
+  margin-bottom: 12px;
 
+  display: block;
+  /*width: 85%;*/
+  margin-right: auto;
+  margin-left: auto;
+  font-family: FontAwesome;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 90%;
+  border: none;
+}
+
+#myTable th, #myTable td {
+  text-align: center;
+  border: none;
+}
+
+/*#myTable tr:hover:not(.header) {
+  background-color: hsla(240, 50%, 80%, .1);
+}*/
