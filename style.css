@@ -33,20 +33,19 @@ table {
     border-radius: 5px;
     width: 50%;
     margin: 0 auto;
-}
-table, th {
     text-align: center;
 }
+/*table, th {
+    text-align: center;
+}*/
 table, td {
   border-bottom: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
   border-collapse: collapse;
-  text-align: center: 
 }
 th {
     border: 1px solid #E6E6E6;
     /*border: none;*/
-    border-color: hsla(240, 15%, 25%, .5);
     border-collapse: collapse;
     font-size: 14px;
     font-weight: lighter;
@@ -184,8 +183,10 @@ footer {
   font-weight: bold;   
 }
 .progress:hover {
-    background-position: -25% 0;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, hsla(120, 100%, 25%, .7) 50%);
+    background-position: -30% 0;
+    /*background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, hsla(120, 100%, 25%, .7) 50%);*/
+    /*background-image: linear-gradient(to right, hsla(120, 5%, 80%, .25) 50%, hsla(120, 100%, 25%, .7) 50%);*/
+    background-image: linear-gradient(to right, hsla(240, 50%, 80%, .25) 50%, hsla(120, 100%, 25%, .7) 50%);
 }
 
 /*filter table styling*/
@@ -207,18 +208,15 @@ footer {
   margin-left: auto;
   font-family: FontAwesome;
 }
-
 #myTable {
   border-collapse: collapse;
   width: 90%;
   border: none;
 }
-
 #myTable th, #myTable td {
   text-align: center;
   border: none;
 }
-
 /*#myTable tr:hover:not(.header) {
   background-color: hsla(240, 50%, 80%, .1);
 }*/
